@@ -1,0 +1,65 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'i' ]
+2 info using npm@3.8.3
+3 info using node@v5.8.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly loadAllDepsIntoIdealTree Finishing
+20 silly idealTree:prePrune @pjonestown/how-to-npm@1.0.0
+20 silly idealTree:prePrune └── @linclark/pkg@1.0.2
+21 silly loadIdealTree Finishing
+22 silly currentTree @pjonestown/how-to-npm@1.0.0
+22 silly currentTree └── @linclark/pkg@1.0.2
+23 silly idealTree @pjonestown/how-to-npm@1.0.0
+23 silly idealTree └── @linclark/pkg@1.0.2
+24 silly generateActionsToTake Starting
+25 silly install generateActionsToTake
+26 silly generateActionsToTake Finishing
+27 silly diffTrees action count 0
+28 silly decomposeActions action count 0
+29 silly executeActions Starting
+30 silly install executeActions
+31 silly doSerial global-install 0
+32 silly doParallel fetch 0
+33 verbose correctMkdir /home/newton/.npm/_locks correctMkdir not in flight; initializing
+34 verbose lock using /home/newton/.npm/_locks/staging-70e01a1b91a2bd9a.lock for /home/newton/how-to-npm/node_modules/.staging
+35 verbose unlock done using /home/newton/.npm/_locks/staging-70e01a1b91a2bd9a.lock for /home/newton/how-to-npm/node_modules/.staging
+36 silly rollbackFailedOptional Starting
+37 silly rollbackFailedOptional Finishing
+38 silly runTopLevelLifecycles Starting
+39 silly runTopLevelLifecycles Finishing
+40 silly install printInstalled
+41 warn @pjonestown/how-to-npm@1.0.0 No repository field.
+42 verbose stack Error: EACCES: permission denied, mkdir '/home/newton/how-to-npm/node_modules/.staging'
+42 verbose stack     at Error (native)
+43 verbose cwd /home/newton/how-to-npm
+44 error Linux 3.13.0-45-generic
+45 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "i"
+46 error node v5.8.0
+47 error npm  v3.8.3
+48 error path /home/newton/how-to-npm/node_modules/.staging
+49 error code EACCES
+50 error errno -13
+51 error syscall mkdir
+52 error Error: EACCES: permission denied, mkdir '/home/newton/how-to-npm/node_modules/.staging'
+52 error     at Error (native)
+52 error  { [Error: EACCES: permission denied, mkdir '/home/newton/how-to-npm/node_modules/.staging']
+52 error   errno: -13,
+52 error   code: 'EACCES',
+52 error   syscall: 'mkdir',
+52 error   path: '/home/newton/how-to-npm/node_modules/.staging' }
+53 error Please try running this command again as root/Administrator.
+54 verbose exit [ -13, true ]
